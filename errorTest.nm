@@ -1,0 +1,15 @@
+
+
+main(){
+    var a, b;
+    a = 1000;
+    b = 100000;
+    while(a >= 1500 && b != 90000){
+        a = a + 1;
+        b = b - 3;
+    }
+    writeln(a);
+    writeln(b);
+}
+
+

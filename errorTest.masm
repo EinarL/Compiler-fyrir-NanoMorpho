@@ -1,0 +1,43 @@
+"errorTest.mexe" = main in
+!{{
+#"main[f0]" = 
+[
+(MakeVal null)
+(Push)
+(MakeVal null)
+(Push)
+(MakeVal 1000)
+(Store 1)
+(MakeVal 100000)
+(Store 0)
+_1:
+(Fetch 1)
+(Push)
+(MakeVal 1500)
+(Call #">=[f2]" 2)
+(Push)
+(Fetch 0)
+(Call #"&&[f2]" 2)
+(Push)
+(MakeVal 90000)
+(Call #"!=[f2]" 2)
+(GoFalse _2)
+(Fetch 1)
+(Push)
+(MakeVal 1)
+(Call #"+[f2]" 2)
+(Store 1)
+(Fetch 0)
+(Push)
+(MakeVal 3)
+(Call #"-[f2]" 2)
+(Store 0)
+(Go _1)
+_2:
+(Fetch 1)
+(Call #"writeln[f1]" 1)
+(Fetch 0)
+(Call #"writeln[f1]" 1)
+(Return)
+];
+}}*BASIS;

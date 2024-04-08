@@ -1,0 +1,12 @@
+main()
+{
+	var list;
+
+	list = 1:(2:null);
+
+	writeln(head(list));
+	writeln(head(tail(list)));
+}
+
+
+

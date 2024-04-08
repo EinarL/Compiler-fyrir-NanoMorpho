@@ -1,0 +1,19 @@
+
+
+main(){
+    var a;
+    a = 2;
+    if (a == 0){
+        writeln("a is 0");
+    }
+    elsif (a == 1){
+        writeln("a is 1");
+    }
+    else {
+        writeln("a is neither 0 nor 1");
+
+    }
+    writeln(a);
+}
+
+
